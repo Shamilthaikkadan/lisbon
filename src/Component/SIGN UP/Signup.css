@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.signup_container{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup_subcontainer_1{
+    
+    width: 500px;
+    height: 600px;
+    background-color:aqua;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+    /* opacity: 0.8; */
+}
+.signup_bg_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.components{
+ position: absolute;
+ width: 400px;
+ height: 300px;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ flex-direction: column;
+ /* background-color:black; */
+ border-radius: 50%;
+ opacity: 0.8;
+ box-shadow: 5px 5px 5px;
+}
+.signup{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.singup_button:hover{
+    background-color: black;
+    color:white ;
+}
+.singup_button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
+.error{
+    width: 300px;
+    height: 50px;
+    /* background-color: aqua; */
+     font-size: 25px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}

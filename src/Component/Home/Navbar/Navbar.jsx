@@ -10,9 +10,9 @@ function Navbar() {
                 <img className='logo_img' src={Logo} alt="" />
              </div>
              <div className='navbar'>
-      <Link className='linked' to = '/'>      <a className='link' href="#">HOME</a></Link>    
-           <Link className='linked' to='/Products'>    <a className='link' href="#">PRODUCTS</a></Link> 
-                <a className='link'  href="#">ABOUT US</a>
+      <Link className='linked' to = '/'>      <span className='link' >HOME</span></Link>    
+           <Link className='linked' to='/Products'>    <span className='link' >PRODUCTS</span></Link> 
+               <Link className='linked' to ='/Signup'> <span className='link'  >SIGN UP</span></Link>
                 <a className='link'  href="#">CONTACT US</a>
 
              </div>
